@@ -163,6 +163,8 @@ elTestsForm.addEventListener("submit", (evt) => {
         result: "Recommended",
         s1: r1.trueAnswers,
         s2: r2.trueAnswers,
+        s1n: r1.subject,
+        s2n: r2.subject,
       };
 
       break;
@@ -175,6 +177,8 @@ elTestsForm.addEventListener("submit", (evt) => {
         result: "Recommended",
         s1: r1.trueAnswers,
         s2: r2.trueAnswers,
+        s1n: r1.subject,
+        s2n: r2.subject,
       };
 
       break;
@@ -191,6 +195,8 @@ elTestsForm.addEventListener("submit", (evt) => {
       result: "Not recommended",
       s1: r1.trueAnswers,
       s2: r2.trueAnswers,
+      s1n: r1.subject,
+      s2n: r2.subject,
     };
   }
 

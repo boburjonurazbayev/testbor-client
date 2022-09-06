@@ -1,0 +1,38 @@
+.result__heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.result__form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.result__label + .result__label{
+    margin-top: 30px;
+}
+
+.resfac {
+    width: 700px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #18a0fb;
+    -webkit-box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+            box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+    border-radius: 20px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/normalizer.css">
+    <link rel="stylesheet" href="./css/normalizer.css" />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/result.css" />
     <title>results</title>
@@ -23,47 +23,65 @@
 
       <section class="result">
         <div class="container">
-          <h2 class="result__heading">Asosiy</h2>
+          <h2 class="result__heading">Main result</h2>
 
           <form class="result__form">
             <label class="result__label">
-              <span class="result__subject">English</span>
+              <span class="result__subject1">English</span>
 
-              <input
-                class="result__range"
-                type="range"
-                name="english"
-                min="1"
-                max="100"
-                value="71"
-                oninput="this.nextElementSibling.value = this.value"
-                aria-controls="false"
-              />
+              <div class="inner">
+                <input
+                  class="result__range1"
+                  type="range"
+                  name="english"
+                  min="1"
+                  max="100"
+                  value="71"
+                  oninput="this.nextElementSibling.value = this.value"
+                  aria-controls="false"
+                />
 
-              <output class="result__output">71</output>
+                <output class="result__output1">71</output>
 
-              <span class="result__number">21/30</span>
+                <span class="result__percent">%</span>
+              </div>
+
+              <span class="result__number1">21/30</span>
             </label>
 
             <label class="result__label">
-              <span class="result__subject">Math</span>
+              <span class="result__subject2">Math</span>
 
-              <input
-                class="result__range"
-                type="range"
-                name="math"
-                min="1"
-                max="100"
-                value="71"
-                oninput="this.nextElementSibling.value = this.value"
-                aria-controls="false"
-              />
+              <div class="inner">
+                <input
+                  class="result__range2"
+                  type="range"
+                  name="math"
+                  min="1"
+                  max="100"
+                  value="71"
+                  oninput="this.nextElementSibling.value = this.value"
+                  aria-controls="false"
+                />
 
-              <output class="result__output">71</output>
+                <output class="result__output2">71</output>
 
-              <span class="result__number">27/30</span>
+                <span class="result__percent">%</span>
+              </div>
+
+              <span class="result__number2">27/30</span>
             </label>
           </form>
+
+          <div class="resfac">
+            <h2 class="facrec"></h2>
+            
+            <h3 class="facname"></h3>
+
+            <h4 class="facstat"></h4>
+            
+          </div>
+          
         </div>
       </section>
     </main>
