@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <a class="back-link" href="./index.html">
+          <img
+            class="back-link__image"
+            src="./images/back-link.png"
+            alt="back icon"
+            width="20"
+            height="20"
+          />
+          Back</a
+        >
+
+        <form class="login__form" method="post">
+          <h1 class="heading">Log in</h1>
+
+          <label class="register__label">
+            <input
+              class="inputs login__username"
+              name="username"
+              value="bobur"
+              placeholder="Username"
+              type="text"
+              required
+            />
+          </label>
+
+          <label class="register__label">
+            <input
+              class="inputs login__password"
+              name="Password"
+              value="1111"
+              placeholder="Password"
+              type="password"
+            />
+          </label>
+
+          <button class="login__submit-btn" type="submit">Log in</button>
+
+          <p id="forError"></p>
+
+          <a class="login__link" href="./register.html"
+            >Not have an account? Register.</a
+          >
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

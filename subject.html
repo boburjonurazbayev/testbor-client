@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/subject.css" />
+    <title>Subjects</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <a class="back-link" href="./index.html">
+          <img
+            class="back-link__image"
+            src="./images/back-link.png"
+            alt="back icon"
+            width="20"
+            height="20"
+          />
+          Back</a
+        >
+
+        <h1 class="heading">Welcome main exam</h1>
+
+        <img
+          class="step-image"
+          src="./images/step-first.png"
+          alt="step first"
+          width="1110"
+          height="70"
+        />
+
+        <form class="subject__form" method="post">
+          <h2 class="heading__form">First subject</h2>
+
+          <select name="subject1" class="subject__1"></select>
+
+          <h2 class="heading__form">Second subject</h2>
+
+          <select name="subject2" class="subject__2"></select>
+
+          <button class="subject__submit-btn" type="submit">Next</button>
+        </form>
+
+        <span id="forError"></span>
+      </div>
+    </main>
+
+    <!-- Option template -->
+
+    <template id="option__template">
+      <option value="undefined" class="subject__option"></option>
+    </template>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/subject.js"></script>
+  </body>
+</html>

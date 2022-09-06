@@ -1,0 +1,159 @@
+.back-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.back-link__image {
+  margin: 0;
+  margin-right: 25px;
+  width: 20px;
+  height: 20px;
+}
+
+.heading {
+  width: 430px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+
+.step-image {
+  margin-top: 65px;
+}
+
+.heading__form {
+  margin-top: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.form__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.university__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  width: 100%;
+  max-height: 750px;
+  height: 100%;
+  padding: 25px;
+  border: 1px solid #18a0fb;
+  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.university__heading {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.faculty__label {
+  cursor: pointer;
+}
+
+.faculty__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #bbbbbb;
+}
+
+.info__bar {
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  width: 100%;
+  height: 190px;
+  margin: 0;
+  padding: 25px;
+  background: #ffffff;
+  border: 1px solid #18a0fb;
+  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  border-radius: 20px;
+}
+
+.info__name {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #18a0fb;
+}
+
+.info__inner {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.info__grant {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.info__contract {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.university__submit-btn {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #18a0fb;
+  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.university__submit-btn:hover {
+  box-shadow: none;
+}
+
+.underline {
+  color: #18a0fb;
+  text-decoration: underline;
+}

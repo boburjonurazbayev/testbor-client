@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/test.css" />
+    <title>Tests</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="test">
+        <div class="container">
+          <form class="test__form">
+            <h2 class="test__heading">Math</h2>
+
+            <div class="test__inner">
+              <h3 class="test__question">#1. 2+2</h3>
+
+              <label class="test__label">
+                <input class="test__input" type="radio" name="test1" />
+
+                <span class="test__text">1</span>
+              </label>
+
+              <label class="test__label">
+                <input class="test__input" type="radio" name="test1" />
+
+                <span class="test__text">2</span>
+              </label>
+
+              <label class="test__label">
+                <input class="test__input" type="radio" name="test1" />
+
+                <span class="test__text">3</span>
+              </label>
+
+              <label class="test__label">
+                <input class="test__input" type="radio" name="test1" />
+
+                <span class="test__text">4</span>
+              </label>
+
+              <span class="test__line" aria-hidden="true"></span>
+            </div>
+
+            <button class="text__btn" type="button">Finish</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Test Heading template -->
+
+    <template id="test__heading-template">
+      <h2 class="test__heading"></h2>
+    </template>
+
+    <!-- Result btn template -->
+
+    <template id="test__result-btn-template">
+      <button class="test__btn" type="submit">Finish test</button>
+    </template>
+
+      <!-- Test next link template -->
+
+      <template id="go__result-template">
+        <a class="test__btn go__result-btn" href="./result.html">Go to result</a>
+      </template>
+
+    <!-- Test question template -->
+
+    <template id="test__question-template">
+      <h3 class="test__question"></h3>
+    </template>
+
+    <!-- Test answer template -->
+
+    <template id="test__answer-template">
+      <label class="test__label">
+        <input class="test__input" type="radio" name="test1" />
+
+        <span class="test__text"></span>
+      </label>
+    </template>
+
+    <!-- Test line template -->
+
+    <template id="test__line-template">
+      <span class="test__line" aria-hidden="true"></span>
+    </template>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/test.js"></script>
+  </body>
+</html>

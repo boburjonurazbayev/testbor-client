@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/university.css" />
+    <title>Universities</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <a class="back-link" href="./subject.html">
+          <img
+            class="back-link__image"
+            src="./images/back-link.png"
+            alt="back icon"
+            width="20"
+            height="20"
+          />
+          Back</a
+        >
+
+        <h1 class="heading">Welcome test blocks</h1>
+
+        <img
+          class="step-image"
+          src="./images/step-last.png"
+          alt="step last"
+          width="1110"
+          height="70"
+        />
+
+        <h2 class="heading__form">Choose faculties (max: 5)</h2>
+
+        <div class="form__box">
+          <form class="university__form" method="post"></form>
+
+          <div class="info__bar" id="info">
+            <h2 class="info__name">Faculty</h2>
+            <div class="info__inner">
+              <p class="info__grant">Grant</p>
+              <span class="info__grant-number">0</span>
+              <span class="info__grant-score">0.00</span>
+            </div>
+
+            <div class="info__inner">
+              <p class="info__contract">Contract</p>
+              <span class="info__contract-number">0</span>
+              <span class="info__contract-score">0.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- info template -->
+
+    <template id="info__template">
+      <h2 class="info__name"></h2>
+      <div class="info__inner">
+        <p class="info__grant">Grant</p>
+        <span class="info__grant-number"></span>
+        <span class="info__grant-score"></span>
+      </div>
+
+      <div class="info__inner">
+        <p class="info__contract">Contract</p>
+        <span class="info__contract-number"></span>
+        <span class="info__contract-score"></span>
+      </div>
+    </template>
+
+    <!-- Heading template -->
+
+    <template id="heading__template">
+      <h2 class="university__heading"></h2>
+    </template>
+
+    <!-- Input template -->
+
+    <template id="input__template">
+      <label class="faculty__label">
+        <input
+          class="faculty__input visually-hidden"
+          type="checkbox"
+          name="faculty"
+        />
+
+        <span class="faculty__name"></span>
+      </label>
+    </template>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/university.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+.back-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.back-link__image {
+  margin: 0;
+  margin-right: 25px;
+  width: 20px;
+  height: 20px;
+}
+
+.heading {
+  width: 430px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 30px 25px;
+  background: #FFFFFF;
+box-shadow: 0px 2px 25px rgba(187, 187, 187, 0.35);
+border-radius: 20px;
+}
+
+.inputs {
+  max-width: 390px;
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px 10;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.genders {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.register__label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.gender-label + .gender-label {
+  margin-left: 40px;
+}
+
+.register__submit-btn {
+  margin-top: 40px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #18a0fb;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+#forError {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: red;
+}
+
+.login__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;    
+  color: #000000;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/result.css" />
+    <title>results</title>
+  </head>
+  <body>
+    <main class="main">
+      <a class="logo__link" href="./index.html">
+        <img
+          class="logo__img"
+          src="./images/logo.svg"
+          alt="Testbor website logo"
+          width="155"
+          height="38"
+        />
+      </a>
+
+      <section class="result">
+        <div class="container">
+          <h2 class="result__heading">Asosiy</h2>
+
+          <form class="result__form">
+            <label class="result__label">
+              <span class="result__subject">English</span>
+
+              <input
+                class="result__range"
+                type="range"
+                name="english"
+                min="1"
+                max="100"
+                value="71"
+                oninput="this.nextElementSibling.value = this.value"
+                aria-controls="false"
+              />
+
+              <output class="result__output">71</output>
+
+              <span class="result__number">21/30</span>
+            </label>
+
+            <label class="result__label">
+              <span class="result__subject">Math</span>
+
+              <input
+                class="result__range"
+                type="range"
+                name="math"
+                min="1"
+                max="100"
+                value="71"
+                oninput="this.nextElementSibling.value = this.value"
+                aria-controls="false"
+              />
+
+              <output class="result__output">71</output>
+
+              <span class="result__number">27/30</span>
+            </label>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- result template -->
+
+    <template id="result__template"> </template>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/result.js"></script>
+  </body>
+</html>

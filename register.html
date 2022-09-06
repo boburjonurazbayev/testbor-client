@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <a class="back-link" href="./login.html">
+          <img
+            class="back-link__image"
+            src="./images/back-link.png"
+            alt="back icon"
+            width="20"
+            height="20"
+          />
+          Back</a
+        >
+
+        <form class="register__form" method="post">
+          <h1 class="heading">Register</h1>
+
+          <label class="register__label">
+            <input
+              class="inputs register__fullname"
+              name="fullname"
+              placeholder="Full Name"
+              type="text"
+              required
+            />
+          </label>
+
+          <label class="register__label">
+            <input
+              class="inputs register__contact"
+              name="contact"
+              placeholder="tel: 998998454433"
+              type="text"
+              required
+            />
+          </label>
+
+          <label class="register__label">
+            <input
+              class="inputs register__username"
+              name="username"
+              placeholder="Username"
+              type="text"
+              required
+            />
+          </label>
+
+          <label class="register__label">
+            <input
+              class="inputs register__password"
+              name="Password"
+              placeholder="Password"
+              type="password"
+              required
+            />
+          </label>
+
+          <span class="genders">
+            <label class="register__label gender-label">
+              <input
+                class="register__gender"
+                name="gender"
+                value="male"
+                type="radio"
+                required
+                checked="true"
+              />
+              Male
+            </label>
+
+            <label class="register__label gender-label">
+              <input
+                class="register__gender"
+                name="gender"
+                value="female"
+                type="radio"
+                required
+              />
+              Female
+            </label>
+          </span>
+
+          <button class="register__submit-btn" type="submit">Register</button>
+
+          <p id="forError"></p>
+
+          <a class="login__link" href="./login.html"
+            >Have already account? Log in.</a
+          >
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/register.js"></script>
+  </body>
+</html>

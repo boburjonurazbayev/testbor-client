@@ -1,0 +1,118 @@
+.container {
+  max-width: 1150px;
+  width: 100%;
+}
+
+.test__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.test__heading {
+  margin-top: 50px;
+  margin-bottom: -40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.test__question {
+  max-width: 1025px;
+  width: 100%;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.test__label {
+  margin-top: 35px;
+}
+
+.test__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.test__input:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #18a0fb;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.wrong-input:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgba(251, 39, 25, 1);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.test__input:disabled + .test__text {
+  color: rgba(174, 174, 174, 1);
+}
+
+.test__input:checked + .test__text {
+  color: #18a0fb;
+}
+
+.wrong-input:checked + .test__text {
+  color: rgba(251, 39, 25, 1);
+}
+
+.test__line {
+  display: block;
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 35px;
+  border: 1px solid #aaaaaa;
+}
+
+.test__btn {
+  max-width: 500px;
+  width: 100%;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  background: #fcfcfc;
+  border: 1px solid #aaaaaa;
+  border-radius: 20px;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.text__btn:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
