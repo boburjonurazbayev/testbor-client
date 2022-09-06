@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .back-link {
   font-family: "Poppins";
   font-style: normal;
@@ -43,21 +50,31 @@
 }
 
 .form__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .university__form {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 540px;
   width: 100%;
   max-height: 750px;
   height: 100%;
   padding: 25px;
   border: 1px solid #18a0fb;
-  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  -webkit-box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+          box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
   border-radius: 20px;
   overflow-y: auto;
 }
@@ -86,8 +103,13 @@
 }
 
 .info__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 540px;
   width: 100%;
   height: 190px;
@@ -95,7 +117,8 @@
   padding: 25px;
   background: #ffffff;
   border: 1px solid #18a0fb;
-  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  -webkit-box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+          box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
   border-radius: 20px;
 }
 
@@ -111,9 +134,15 @@
 
 .info__inner {
   max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 25px;
 }
 
@@ -143,14 +172,20 @@
   padding: 10px;
   background-color: #fff;
   border: 1px solid #18a0fb;
-  box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+  -webkit-box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+          box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
   border-radius: 20px;
   cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.2s ease;
+  transition: -webkit-box-shadow 0.2s ease;
+  -o-transition: box-shadow 0.2s ease;
   transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
 
 .university__submit-btn:hover {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .underline {

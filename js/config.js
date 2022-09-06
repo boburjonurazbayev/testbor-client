@@ -1,1 +1,1 @@
-const API = "http://localhost:5000"
+const API = "https://testbot-server-heroku.herokuapp.com"
